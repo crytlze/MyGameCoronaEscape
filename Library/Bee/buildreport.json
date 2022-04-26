@@ -1,0 +1,21 @@
+{
+"instructions_readme": "1) Open Chrome, 2) go to chrome://tracing, 3) click Load, 4) navigate to this file.",
+
+"traceEvents":[
+{ "pid": "Unity", "ph":"M", "name": "process_name", "args": {"name": "Unity"} },
+{ "pid": "Unity", "ph":"M", "name": "process_sort_index", "args": {"sort_index": -100} },
+{ "pid": "Unity", "tid": 1, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "Unity", "tid": 1,"ts": 999184417659.8,"dur": 129542.8, "ph":"X", "name": "Build player"},
+{ "pid": "Unity", "tid": 1,"ts": 999184446311.5,"dur": 44492.3, "ph":"X", "name": "Preprocess Player"},
+{ "pid": "Unity", "tid": 1,"ts": 999184514824.2,"dur": 781.9, "ph":"X", "name": "Prepare For Build"},
+{ "pid": "Unity", "tid": 1,"ts": 999184515614.1,"dur": 10774.2, "ph":"X", "name": "ProducePlayerScriptAssemblies"},
+{}
+
+],
+"meta_datetime": "04/26/2022 04:42:34",
+"meta_command_line": "\"C:\\Program Files\\Unity\\Hub\\Editor\\2021.3.0f1\\Editor\\Unity.exe\" -projectpath \"C:\\Users\\krizs\\OneDrive\\Desktop\\TUGAS KULIAH S2 ITB\\My Project Game Unity\\CORONA ESCAPE\" -useHub -hubIPC -cloudEnvironment production -licensingIpc LicenseClient-KRIZ -hubSessionId 7b2d2090-c4c1-11ec-8dc9-e9162f269bb0 -accessToken 6G7KNN1d10gx4pY01Yle_HQQtQ5Kln7yuWY1RJysGVc011f",
+"meta_command_line_args": "C:\\Program Files\\Unity\\Hub\\Editor\\2021.3.0f1\\Editor\\Unity.exe -projectpath C:\\Users\\krizs\\OneDrive\\Desktop\\TUGAS KULIAH S2 ITB\\My Project Game Unity\\CORONA ESCAPE -useHub -hubIPC -cloudEnvironment production -licensingIpc LicenseClient-KRIZ -hubSessionId 7b2d2090-c4c1-11ec-8dc9-e9162f269bb0 -accessToken 6G7KNN1d10gx4pY01Yle_HQQtQ5Kln7yuWY1RJysGVc011f",
+"meta_user_name": "KRIZ",
+"meta_os_version": "Microsoft Windows NT 10.0.22000.0",
+"meta_cpu_count": "12"
+}
